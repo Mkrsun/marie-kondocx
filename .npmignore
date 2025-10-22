@@ -1,0 +1,23 @@
+# Source
+src/
+
+# Config
+tsconfig.json
+
+# Tests
+test/
+*.test.ts
+
+# Examples
+examples/
+
+# Documentation
+docs/
+
+# Steps and analysis (generated)
+steps/
+analysis/
+
+# Git
+.git/
+.gitignore

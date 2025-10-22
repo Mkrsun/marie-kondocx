@@ -1,0 +1,37 @@
+{
+  "name": "marie-kondocx",
+  "version": "1.0.0",
+  "description": "DOCX Preflight & Clean - Análisis y limpieza incremental de documentos Word",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "marie-kondocx": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w",
+    "preflight": "node dist/cli.js",
+    "clean": "rm -rf dist steps analysis"
+  },
+  "keywords": [
+    "docx",
+    "word",
+    "preflight",
+    "clean",
+    "openxml",
+    "template"
+  ],
+  "dependencies": {
+    "fast-xml-parser": "^4.4.0",
+    "jszip": "^3.10.1",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/jszip": "^3.4.1",
+    "@types/node": "^22.7.4",
+    "@types/yargs": "^17.0.33",
+    "typescript": "^5.6.3"
+  }
+}

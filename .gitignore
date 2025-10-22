@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Generated files
+steps/
+analysis/
+*.docx
+!examples/*.docx
+report.json
+*.log
+
+# Template and result files
+templates/*
+!templates/.gitkeep
+results/*
+!results/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# Test
+coverage/
+.nyc_output/
